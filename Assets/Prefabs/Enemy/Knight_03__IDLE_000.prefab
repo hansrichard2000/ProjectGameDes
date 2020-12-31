@@ -13,10 +13,11 @@ GameObject:
   - component: {fileID: 1726913252361290278}
   - component: {fileID: 441630894764049179}
   - component: {fileID: 8720410128074704690}
+  - component: {fileID: 412759948016149314}
   - component: {fileID: 2921946567404187576}
   m_Layer: 0
   m_Name: Knight_03__IDLE_000
-  m_TagString: Untagged
+  m_TagString: Knight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136,6 +137,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &412759948016149314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3026755028945952914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcb4bddf0ed88e04a8feede7e884f71f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2921946567404187576
 MonoBehaviour:
   m_ObjectHideFlags: 0
