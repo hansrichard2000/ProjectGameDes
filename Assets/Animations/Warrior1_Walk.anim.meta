@@ -1,5 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Animations/Warrior1_Walk.anim.meta
 guid: 7cc8012fbc742704c916be9fecf7ef7b
+||||||| a257d4f... Animation:Assets/Animations/Knight_01__IDLE_000.controller.meta
+guid: 15252fb093262ec41a4fea9b3d8c713f
+=======
+guid: cb680c8abe69b6e4bb41ad6a29523242
+>>>>>>> parent of a257d4f... Animation:Assets/Animations/enemy1_walk.anim.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 0
