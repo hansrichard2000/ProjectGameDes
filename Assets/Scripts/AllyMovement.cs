@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MCastle : MonoBehaviour
+public class AllyMovement : MonoBehaviour
 {
+    public float speed = 0.03f;
 
-    int health = 100;
+    Vector3 translationVec;
+    float x = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +18,10 @@ public class MCastle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+        translationVec = new Vector3(x, 0, 0);
+
+        transform.localPosition += translationVec * speed;
+
     }
 }
