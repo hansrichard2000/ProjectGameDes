@@ -16,7 +16,7 @@ public class AllyMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
 
         translationVec = new Vector3(x, 0, 0);

@@ -27,7 +27,7 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnEnemy()
     {
-        positionX = Random.Range(22.5f, 23.5f);
+        positionX = Random.Range(20.5f, 21.5f);
         positionY = Random.Range(-2.75f, -3.75f);
 
         var newEnemy = Instantiate(enemy[Random.Range(0, enemy.Length)]);
