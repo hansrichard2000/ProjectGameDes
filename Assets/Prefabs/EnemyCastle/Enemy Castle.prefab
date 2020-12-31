@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 2673754320619000125}
   - component: {fileID: 6695968680304505463}
   - component: {fileID: 3739914998241846329}
-  - component: {fileID: 7240996839734562748}
+  - component: {fileID: 2688872540309704804}
   m_Layer: 0
   m_Name: Enemy Castle
-  m_TagString: Untagged
+  m_TagString: EnemyCastle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,7 +109,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.04, y: 12.24}
   m_EdgeRadius: 0
---- !u!50 &7240996839734562748
+--- !u!50 &2688872540309704804
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -124,7 +124,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1

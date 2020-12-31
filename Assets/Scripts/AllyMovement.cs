@@ -25,12 +25,12 @@ public class AllyMovement : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider other)
+    void FixedUpdate()
     {
-        if(other.GetComponent<EnemyDeath>() != null)
-        {
-            Destroy(gameObject);
-        }
-            
+
+        translationVec = new Vector3(x, 0, 0);
+
+        transform.localPosition += translationVec * speed;
+
     }
 }

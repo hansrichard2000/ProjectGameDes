@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8351339551037113464}
   - component: {fileID: 6625337996006171325}
   - component: {fileID: 8368013561282967779}
+  - component: {fileID: 1059017360353598438}
   m_Layer: 0
   m_Name: Warrior_03__IDLE_000
   m_TagString: Untagged
@@ -148,3 +149,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1059017360353598438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9149933104084587770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb2f6f1fa4e83ff489d5765dfca1497f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
