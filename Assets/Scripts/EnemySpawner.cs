@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
 
-    public GameObject enemy;
+    public GameObject[] enemy;
     public float positionX, positionY;
 
     // Start is called before the first frame update
@@ -20,12 +20,17 @@ public class EnemySpawner : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.A))
         {
-            positionX = Random.Range(0f, 8.5f);
-            positionY = Random.Range(-3f, 1f);
-
-            var newEnemy = Instantiate(enemy);
-            newEnemy.transform.position = new Vector3(positionX, positionY, 0);
+            SpawnEnemy();
         }
 
+    }
+
+    void SpawnEnemy()
+    {
+        positionX = Random.Range(22.5f, 23.5f);
+        positionY = Random.Range(-2.75f, -3.75f);
+
+        var newEnemy = Instantiate(enemy[Random.Range(0, enemy.Length)]);
+        newEnemy.transform.position = new Vector3(positionX, positionY, 0);
     }
 }

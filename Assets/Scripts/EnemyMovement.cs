@@ -22,18 +22,9 @@ public class EnemyMovement : MonoBehaviour
     void FixedUpdate()
     {
 
-        if (transform.localPosition.x > batasKanan || transform.localPosition.x < batasKiri)
-        {
-            x = -x;
-        }
-
-        if (transform.localPosition.y > batasAtas || transform.localPosition.y < batasBawah)
-        {
-//            y = -y;
-        }
-
         translationVec = new Vector3(x, 0, 0);
 
         transform.localPosition += translationVec * speed;
+
     }
 }
