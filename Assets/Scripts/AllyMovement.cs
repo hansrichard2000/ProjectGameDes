@@ -24,4 +24,13 @@ public class AllyMovement : MonoBehaviour
         transform.localPosition += translationVec * speed;
 
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.GetComponent<EnemyDeath>() != null)
+        {
+            Destroy(gameObject);
+        }
+            
+    }
 }

@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    public float speed = 0.03f;
+    public float speed = 0.5f;
+    float batasKanan = 9.1f;
+    float batasKiri = -9.1f;
+    float batasAtas = 5.2f;
+    float batasBawah = -5.2f;
 
     Vector3 translationVec;
     float x = -1;

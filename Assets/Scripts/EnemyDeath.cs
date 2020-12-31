@@ -4,20 +4,11 @@ using UnityEngine;
 
 public class EnemyDeath : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void OnCollisionEnter(Collision collision)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    private void OnTriggerEnter(Collider other)
-    {
-        print("kena trigger");
-        Destroy(other.gameObject);
+        if (collision.collider.tag == "AllyCastle")
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

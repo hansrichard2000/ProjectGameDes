@@ -200,36 +200,12 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.01
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &672541190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672541187}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cec6236d9f30bd41b3a75cf9596840e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &672541193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672541187}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcb4bddf0ed88e04a8feede7e884f71f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &736284360
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -312,7 +288,8 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.94
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4679267479883611325, guid: b67de9d6da51cea47ac8ca5b34b81ed2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b67de9d6da51cea47ac8ca5b34b81ed2, type: 3}
 --- !u!1 &796899671
 GameObject:
