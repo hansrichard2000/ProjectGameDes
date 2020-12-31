@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 4099945450997148196}
   - component: {fileID: -4593804662238377823}
   - component: {fileID: -283757196362669755}
-  - component: {fileID: 6355723803734340117}
-  - component: {fileID: 4679267479883611325}
+  - component: {fileID: 8562087097854882564}
   m_Layer: 0
   m_Name: MainCastle
   m_TagString: AllyCastle
@@ -132,7 +131,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.85, y: 11.74}
   m_EdgeRadius: 0
---- !u!114 &6355723803734340117
+--- !u!114 &8562087097854882564
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,18 +140,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1511484599596284456}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cec6236d9f30bd41b3a75cf9596840e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &4679267479883611325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511484599596284456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcb4bddf0ed88e04a8feede7e884f71f, type: 3}
+  m_Script: {fileID: 11500000, guid: 8bc14ca69cbcbd44d8d5175dda85bb81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
